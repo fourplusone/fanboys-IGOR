@@ -189,8 +189,6 @@ cmd("$AtomicParsley '$m4afile' --artist 'fanboys' --album 'Fanboys' -S 'Podcast'
 #cmd("$id3v2 '$mp3file' --artist 'fanboys' --album 'Fanboys' --track '$episodenumber' --song '$title' --comment '$shownotes'");
 #bummer: no apic support for cover art
 
-$nextepisode = $episodenumber + 1;
-cmd("sed -i '' 's/^.*agenda.*\$/RewriteRule\\ \\.\\*agenda\\$\\ http:\\/\\/media\\.subethanet\\.org:9001\\/p\\/FAN$nextepisode\\ \\[R,L\\]/' ../.htaccess");
 
 
 
