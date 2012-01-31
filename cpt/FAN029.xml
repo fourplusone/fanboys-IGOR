@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:08">
+    <title>Mit Dominik</title>
+    <link href="http://twitter.com/monkeydom">Mit Dominik</link>
+  </chapter>
+  <chapter starttime="00:00:11">
+    <title>Marcel</title>
+    <link href="http://twitter.com/zeitweise">Marcel</link>
+  </chapter>
+  <chapter starttime="00:00:14">
+    <title>Und Martin</title>
+    <link href="http://twitter.com/map">Und Martin</link>
+  </chapter>
+  <chapter starttime="00:00:51">
+    <title>Z und Dune</title>
+  </chapter>
+  <chapter starttime="00:01:20">
+    <title>Lion</title>
+    <link href="http://www.apple.com/macosx/">Lion</link>
+  </chapter>
+  <chapter starttime="00:02:21">
+    <title>Folder with Selection</title>
+  </chapter>
+  <chapter starttime="00:03:23">
+    <title>Folder Mergen</title>
+  </chapter>
+  <chapter starttime="00:04:41">
+    <title>Filevault 2</title>
+  </chapter>
+  <chapter starttime="00:05:29">
+    <title>Mission Control</title>
+  </chapter>
+  <chapter starttime="00:06:22">
+    <title>Application Expose und Recent Files</title>
+  </chapter>
+  <chapter starttime="00:07:01">
+    <title>Spotlight</title>
+  </chapter>
+  <chapter starttime="00:09:54">
+    <title>Knüllgeste to Launch Pad</title>
+  </chapter>
+  <chapter starttime="00:13:24">
+    <title>Mail.app</title>
+  </chapter>
+  <chapter starttime="00:20:00">
+    <title>Adressbuch</title>
+  </chapter>
+  <chapter starttime="00:21:41">
+    <title>iCal</title>
+  </chapter>
+  <chapter starttime="00:23:04">
+    <title>Martin's lustiger Multimonitorbug</title>
+  </chapter>
+  <chapter starttime="00:24:46">
+    <title>Finder Status Bar vermisst und gefunden</title>
+  </chapter>
+  <chapter starttime="00:26:05">
+    <title>~/Library und Logfiles</title>
+  </chapter>
+  <chapter starttime="00:27:02">
+    <title>Xcode 4.1</title>
+  </chapter>
+  <chapter starttime="00:29:03">
+    <title>Safari Swipe</title>
+  </chapter>
+  <chapter starttime="00:31:14">
+    <title>Gesten</title>
+  </chapter>
+  <chapter starttime="00:33:01">
+    <title>Animationen</title>
+  </chapter>
+  <chapter starttime="00:34:56">
+    <title>Preview und Unlock</title>
+  </chapter>
+  <chapter starttime="00:37:50">
+    <title>Scrollrichtung schmerzt kurz, ist dann toll</title>
+  </chapter>
+  <chapter starttime="00:39:31">
+    <title>Restore Partition</title>
+  </chapter>
+  <chapter starttime="00:40:16">
+    <title>Lion nicht MAS exklusiv</title>
+  </chapter>
+  <chapter starttime="00:41:58">
+    <title>Fenster resizen</title>
+  </chapter>
+  <chapter starttime="00:43:29">
+    <title>Deutsche Sprachsynthese</title>
+  </chapter>
+  <chapter starttime="00:47:28">
+    <title>Siracusa Review</title>
+    <link href="http://arstechnica.com/apple/reviews/2011/07/mac-os-x-10-7.ars">Siracusa Review</link>
+  </chapter>
+  <chapter starttime="00:48:12">
+    <title>Neue Macbook Airs</title>
+    <link href="http://www.apple.com/macbookair/">Neue Macbook Airs</link>
+  </chapter>
+  <chapter starttime="00:51:06">
+    <title>Neue Mac Minis</title>
+    <link href="http://www.apple.com/macmini/">Neue Mac Minis</link>
+  </chapter>
+  <chapter starttime="00:52:54">
+    <title>Neue Displays</title>
+    <link href="http://www.apple.com/displays/">Neue Displays</link>
+  </chapter>
+  <chapter starttime="00:55:58">
+    <title>Voice Over auf iOS als Vorleser</title>
+  </chapter>
+  <chapter starttime="01:03:10">
+    <title>Google+ App</title>
+    <link href="http://www.google.com/mobile/+/">Google+ App</link>
+  </chapter>
+  <chapter starttime="01:09:19">
+    <title>Die gefakten Apple Store (News)</title>
+    <link href="http://birdabroad.wordpress.com/2011/07/20/are-you-listening-steve-jobs/">Die gefakten Apple Store (News)</link>
+  </chapter>
+  <chapter starttime="01:12:32">
+    <title>Aaron Schwarz vs JSTOR</title>
+    <link href="http://www.wired.com/threatlevel/2011/07/swartz-arrest/">Aaron Schwarz vs JSTOR</link>
+  </chapter>
+  <chapter starttime="01:19:13">
+    <title>Kard Combat</title>
+    <link href="http://itunes.apple.com/de/app/kard-combat/id421061883?mt=8">Kard Combat</link>
+  </chapter>
+  <chapter starttime="01:25:54">
+    <title>Rausschmeisser</title>
+    <link href="http://www.youtube.com/watch?v=D2p5svFJ9cQ">Rausschmeisser</link>
+  </chapter>
+</chapters>

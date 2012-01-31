@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:igor="http://emonk.net/IGOR" version="2.0">
+    <channel>
+        <title>Fanboys</title>
+        <link>http://fanboys.fm</link>
+        <atom:link href="http://xn--fanbys-exa.org/episodes.m4a.rss" rel="self" type="application/rss+xml" />
+        <language>de-de</language>
+        <copyright>cc-by-nc-sa</copyright>
+        <itunes:subtitle>A show about everything</itunes:subtitle>
+        <itunes:author>fanboys</itunes:author>
+        <itunes:summary>Regelmässiges Kaffeekränzchen in Sachen Nerdkram</itunes:summary>
+		<itunes:explicit>no</itunes:explicit>
+        <description>Regelmässiges Kaffeekränzchen in Sachen Nerdkram</description>
+        <itunes:owner>
+            <itunes:name>fanboys</itunes:name>
+            <itunes:email>all@xn--fanbys-exa.org</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://xn--fanbys-exa.org/images/cover.jpg"/>
+        <itunes:category text="Technology"/>
+        <itunes:category text="Technology">
+            <itunes:category text="Gadgets"/>
+        </itunes:category>
+        <itunes:category text="Technology">
+            <itunes:category text="Tech News"/>
+        </itunes:category>
+        <atom:link rel="payment" href="https://flattr.com/submit/auto?url=http%3A%2F%2Ffanboys.fm%2Fepisodes.m4a.rss&amp;user_id=map&amp;title=Fanboys%20Feed&amp;tags=podcast&amp;category=audio" type="text/html" />

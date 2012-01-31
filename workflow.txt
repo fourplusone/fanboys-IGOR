@@ -1,0 +1,5 @@
+
+
+- Record multitrack wavs, place preliminary markers while recording if possible
+- Import in Hindenburg, Cut, Place Chapter Markers, Export FANXXX.m4a (XXX is the episode number)
+- build/make FANXXX.nhsx (uses nhsx2podcast to generate RSS snippets with chapter marks, then assembles RSS Feeds)

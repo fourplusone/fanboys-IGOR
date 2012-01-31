@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:08">
+    <title>Mit Dominik</title>
+    <link href="http://twitter.com/monkeydom">Mit Dominik</link>
+  </chapter>
+  <chapter starttime="00:00:11">
+    <title>Und Martin</title>
+    <link href="http://twitter.com/map">Und Martin</link>
+  </chapter>
+  <chapter starttime="00:00:56">
+    <title>KeyCue</title>
+    <link href="http://www.ergonis.com/products/keycue/">KeyCue</link>
+  </chapter>
+  <chapter starttime="00:01:54">
+    <title>Piraten-Servergate</title>
+    <link href="http://www.piratenpartei.de/print/1354">Piraten-Servergate</link>
+  </chapter>
+  <chapter starttime="00:14:12">
+    <title>Bradley Manning</title>
+    <link href="http://www.bradleymanning.org/">Bradley Manning</link>
+  </chapter>
+  <chapter starttime="00:17:26">
+    <title>In-App-Gate</title>
+    <link href="http://thenextweb.com/apple/2011/05/16/lodsys-explains-in-app-patent-warning-letters-sent-to-ios-developers/">In-App-Gate</link>
+  </chapter>
+  <chapter starttime="00:28:07">
+    <title>Mehr eBooks als richtige Bücher</title>
+    <link href="http://www.theatlantic.com/business/archive/2011/05/amazon-now-selling-more-kindle-books-than-print-books/239150/">Mehr eBooks als richtige Bücher</link>
+  </chapter>
+  <chapter starttime="00:30:10">
+    <title>AuthToken-Gate</title>
+    <link href="http://blogs.computerworld.com/18308/google_android_security_flaw">AuthToken-Gate</link>
+  </chapter>
+  <chapter starttime="00:34:20">
+    <title>PSN Hacks, Teil 12</title>
+    <link href="http://thenextweb.com/industry/2011/05/18/not-so-fast-sonys-playstation-network-hacked-again/">PSN Hacks, Teil 12</link>
+  </chapter>
+  <chapter starttime="00:39:36">
+    <title>Homebanking</title>
+    <link href="http://www.youtube.com/watch?v=okJ9A07h3Bo">Homebanking</link>
+  </chapter>
+  <chapter starttime="00:41:42">
+    <title>Surfen Multimedia</title>
+    <link href="http://www.youtube.com/watch?v=yFPQbnraeVg">Surfen Multimedia</link>
+  </chapter>
+  <chapter starttime="00:41:49">
+    <title>ChapterTool Gejammer</title>
+  </chapter>
+  <chapter starttime="00:49:00">
+    <title>Dropbox und die Verschlüsselung</title>
+    <link href="http://www.wired.com/threatlevel/2011/05/dropbox-ftc/">Dropbox und die Verschlüsselung</link>
+  </chapter>
+  <chapter starttime="00:54:35">
+    <title>RAR Files und Rechteprobleme</title>
+  </chapter>
+  <chapter starttime="00:57:13">
+    <title>Rapture-Liveberichterstattung</title>
+  </chapter>
+  <chapter starttime="00:57:32">
+    <title>The Unarchiver</title>
+    <link href="http://wakaba.c3.cx/s/apps/unarchiver.html">The Unarchiver</link>
+  </chapter>
+  <chapter starttime="00:59:11">
+    <title>ACL FIles entfernen</title>
+    <link href="http://www.think-mac.de/2011/02/02/alle-acls-von-einem-ordner-entfernen/">ACL FIles entfernen</link>
+  </chapter>
+  <chapter starttime="01:03:15">
+    <title>Dropbox Partion und TimeMachine</title>
+  </chapter>
+  <chapter starttime="01:05:44">
+    <title>iTunes vs. Twitter</title>
+  </chapter>
+  <chapter starttime="01:07:53">
+    <title>Sicherheitshinweise für die Zombokalypse</title>
+    <link href="http://emergency.cdc.gov/socialmedia/zombies_blog.asp">Sicherheitshinweise für die Zombokalypse</link>
+  </chapter>
+  <chapter starttime="01:09:30">
+    <title>Pontypool</title>
+    <link href="http://en.wikipedia.org/wiki/Pontypool_(film)">Pontypool</link>
+  </chapter>
+  <chapter starttime="01:13:17">
+    <title>Rausschmeisser</title>
+    <link href="http://www.youtube.com/watch?v=dRkIWB3HIEs">Rausschmeisser</link>
+  </chapter>
+</chapters>

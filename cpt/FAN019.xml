@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:07">
+    <title>Mit Dominik</title>
+    <link href="http://twitter.com/monkeydom">Mit Dominik</link>
+  </chapter>
+  <chapter starttime="00:00:09">
+    <title>Und Martin</title>
+    <link href="http://twitter.com/map">Und Martin</link>
+  </chapter>
+  <chapter starttime="00:01:06">
+    <title>Zwangsgeflattrt</title>
+    <link href="https://flattr.com/thing/268597/fanb0ys-on-Twitter">Zwangsgeflattrt</link>
+  </chapter>
+  <chapter starttime="00:03:13">
+    <title>Google IO</title>
+    <link href="http://www.youtube.com/watch?v=OxzucwjFEEs">Google IO</link>
+  </chapter>
+  <chapter starttime="00:08:02">
+    <title>Honeycomb 3.1</title>
+  </chapter>
+  <chapter starttime="00:08:31">
+    <title>Widgets to the next level</title>
+  </chapter>
+  <chapter starttime="00:10:19">
+    <title>USB Host</title>
+  </chapter>
+  <chapter starttime="00:13:56">
+    <title>Icecream Sandwich</title>
+  </chapter>
+  <chapter starttime="00:16:26">
+    <title>It's open!</title>
+  </chapter>
+  <chapter starttime="00:17:04">
+    <title>Headtracking</title>
+  </chapter>
+  <chapter starttime="00:20:02">
+    <title>Techdemo Rant</title>
+  </chapter>
+  <chapter starttime="00:21:46">
+    <title>Android Market</title>
+  </chapter>
+  <chapter starttime="00:25:09">
+    <title>Music Beta</title>
+    <link href="http://www.iphoneblog.de/2011/05/12/ein-erster-blick-googles-music-beta/">Music Beta</link>
+  </chapter>
+  <chapter starttime="00:30:51">
+    <title>Android Alliance</title>
+  </chapter>
+  <chapter starttime="00:32:21">
+    <title>Open Accessory alliance</title>
+    <link href="http://blog.makezine.com/archive/2011/05/google-picks-arduino-for-android-open-accessory-kit.html">Open Accessory alliance</link>
+  </chapter>
+  <chapter starttime="00:37:00">
+    <title>android@home</title>
+    <link href="http://www.bgr.com/2011/05/10/google-announces-android-home/">android@home</link>
+  </chapter>
+  <chapter starttime="00:40:16">
+    <title>Chrome und WebGL</title>
+  </chapter>
+  <chapter starttime="00:41:49">
+    <title>Google Body</title>
+    <link href="http://bodybrowser.googlelabs.com/">Google Body</link>
+  </chapter>
+  <chapter starttime="00:42:06">
+    <title>Chrome Experiments</title>
+    <link href="http://www.chromeexperiments.com/">Chrome Experiments</link>
+  </chapter>
+  <chapter starttime="00:43:21">
+    <title>Three dreams of black</title>
+    <link href="http://www.ro.me/tech/">Three dreams of black</link>
+  </chapter>
+  <chapter starttime="00:48:29">
+    <title>Chromebooks</title>
+    <link href="http://www.google.com/chromebook/#">Chromebooks</link>
+  </chapter>
+  <chapter starttime="00:57:07">
+    <title>Microsoft kauft Skype</title>
+    <link href="http://www.microsoft.com/presspass/press/2011/may11/05-10corpnewspr.mspx">Microsoft kauft Skype</link>
+  </chapter>
+  <chapter starttime="01:02:53">
+    <title>Phil, JUMP!</title>
+    <link href="http://www.youtube.com/watch?v=1MR4R5LdrJw">Phil, JUMP!</link>
+  </chapter>
+  <chapter starttime="01:05:35">
+    <title>Consoligate Hearing</title>
+    <link href="http://www.c-span.org/Events/Congress-Looks-into-Protecting-Mobile-Privacy/10737421417-1/">Consoligate Hearing</link>
+  </chapter>
+  <chapter starttime="01:14:37">
+    <title>iMac Platten nicht (fremd-)tauschbar</title>
+    <link href="http://www.macrumors.com/2011/05/12/apple-restricts-hard-drive-replacements-on-new-imacs/">iMac Platten nicht (fremd-)tauschbar</link>
+  </chapter>
+  <chapter starttime="01:19:31">
+    <title>Timemaschine via netatalk</title>
+    <link href="http://www.kremalicious.com/2008/06/ubuntu-as-mac-file-server-and-time-machine-volume/">Timemaschine via netatalk</link>
+  </chapter>
+  <chapter starttime="01:20:41">
+    <title>Entwickleranlaufstellen</title>
+    <link href="http://audioboo.fm/boos/351254-horerkommentar-time-machine-developer-resources">Entwickleranlaufstellen</link>
+  </chapter>
+  <chapter starttime="01:22:43">
+    <title>Cocoadev</title>
+    <link href="http://www.cocoadev.com/">Cocoadev</link>
+  </chapter>
+  <chapter starttime="01:23:12">
+    <title>Daniel Jalkut</title>
+    <link href="http://www.red-sweater.com/blog/">Daniel Jalkut</link>
+  </chapter>
+  <chapter starttime="01:23:22">
+    <title>Matt Gemmell</title>
+    <link href="http://mattgemmell.com/source">Matt Gemmell</link>
+  </chapter>
+  <chapter starttime="01:23:34">
+    <title>Der Hockenbär</title>
+    <link href="http://furbo.org/">Der Hockenbär</link>
+  </chapter>
+  <chapter starttime="01:24:09">
+    <title>CocoaObjects</title>
+    <link href="http://cocoaobjects.com/">CocoaObjects</link>
+  </chapter>
+  <chapter starttime="01:24:52">
+    <title>stackoverflow</title>
+    <link href="http://stackoverflow.com/">stackoverflow</link>
+  </chapter>
+  <chapter starttime="01:25:30">
+    <title>Mailinglisten Archiv</title>
+    <link href="http://www.cocoabuilder.com/">Mailinglisten Archiv</link>
+  </chapter>
+  <chapter starttime="01:26:38">
+    <title>Keyboard Shortcuts</title>
+    <link href="http://audioboo.fm/boos/353050-keyboard-shortcuts-in-os-x">Keyboard Shortcuts</link>
+  </chapter>
+  <chapter starttime="01:30:45">
+    <title>Twitter Ähnlichkeit</title>
+  </chapter>
+  <chapter starttime="01:31:39">
+    <title>Interview mit Andreas Illiger</title>
+    <link href="http://www.superlevel.de/spiele/interview-mit-andreas-illiger-tiny-wings#more-27253">Interview mit Andreas Illiger</link>
+  </chapter>
+  <chapter starttime="01:33:53">
+    <title>Podcastworkflow</title>
+    <link href="http://verfarceungsschutz.de/podcast/">Podcastworkflow</link>
+  </chapter>
+  <chapter starttime="01:34:32">
+    <title>Squier Rockband von Fender</title>
+    <link href="http://www.fender.com/promos/2010/rockband3">Squier Rockband von Fender</link>
+  </chapter>
+  <chapter starttime="01:39:28">
+    <title>Nyan Cat fürs iPhone</title>
+    <link href="http://itunes.apple.com/de/app/nyan-cat-lost-in-space/id433592592?mt=8">Nyan Cat fürs iPhone</link>
+  </chapter>
+  <chapter starttime="01:43:39">
+    <title>Rausschmeisser</title>
+    <link href="http://www.youtube.com/watch?v=7UCm6uyzNE8">Rausschmeisser</link>
+  </chapter>
+</chapters>

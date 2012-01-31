@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:09">
+    <title>Mit Dominik</title>
+    <link href="http://twitter.com/monkeydom">Mit Dominik</link>
+  </chapter>
+  <chapter starttime="00:00:12">
+    <title>Und Martin</title>
+    <link href="http://twitter.com/map">Und Martin</link>
+  </chapter>
+  <chapter starttime="00:01:50">
+    <title>Halo 4</title>
+    <link href="http://www.wired.com/gamelife/2011/06/microsoft-e3-2011-liveblog/?pid=1281&pageid=35839">Halo 4</link>
+  </chapter>
+  <chapter starttime="00:03:14">
+    <title>WWDC Keynote</title>
+  </chapter>
+  <chapter starttime="00:05:11">
+    <title>Lion</title>
+    <link href="http://www.apple.com/macosx/whats-new/">Lion</link>
+  </chapter>
+  <chapter starttime="00:06:05">
+    <title>Gesten</title>
+    <link href="http://www.apple.com/macosx/whats-new/">Gesten</link>
+  </chapter>
+  <chapter starttime="00:06:17">
+    <title>Fullscreen</title>
+    <link href="http://www.apple.com/macosx/whats-new/">Fullscreen</link>
+  </chapter>
+  <chapter starttime="00:06:59">
+    <title>Mission Control</title>
+    <link href="http://www.apple.com/macosx/whats-new/">Mission Control</link>
+  </chapter>
+  <chapter starttime="00:08:33">
+    <title>Launchpad</title>
+  </chapter>
+  <chapter starttime="00:09:50">
+    <title>Resume</title>
+  </chapter>
+  <chapter starttime="00:10:38">
+    <title>Versions</title>
+  </chapter>
+  <chapter starttime="00:12:24">
+    <title>Airdrop</title>
+  </chapter>
+  <chapter starttime="00:13:59">
+    <title>Mail</title>
+  </chapter>
+  <chapter starttime="00:16:21">
+    <title>29 Dollar, nur im App Store</title>
+  </chapter>
+  <chapter starttime="00:19:58">
+    <title>Mac App Store</title>
+  </chapter>
+  <chapter starttime="00:23:14">
+    <title>iOS 5</title>
+    <link href="http://www.apple.com/ios/ios5/features.html">iOS 5</link>
+  </chapter>
+  <chapter starttime="00:27:26">
+    <title>Notifications</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#notification">Notifications</link>
+  </chapter>
+  <chapter starttime="00:30:19">
+    <title>Newsstand</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#newsstand">Newsstand</link>
+  </chapter>
+  <chapter starttime="00:32:57">
+    <title>Twitter</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#twitter">Twitter</link>
+  </chapter>
+  <chapter starttime="00:36:13">
+    <title>Safari</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#safari">Safari</link>
+  </chapter>
+  <chapter starttime="00:41:05">
+    <title>Reminders</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#reminders">Reminders</link>
+  </chapter>
+  <chapter starttime="00:43:47">
+    <title>Camera</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#camera">Camera</link>
+  </chapter>
+  <chapter starttime="00:47:21">
+    <title>Mail</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#more">Mail</link>
+  </chapter>
+  <chapter starttime="00:51:45">
+    <title>PC Free</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#pcfree">PC Free</link>
+  </chapter>
+  <chapter starttime="00:54:37">
+    <title>Game Center</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#more">Game Center</link>
+  </chapter>
+  <chapter starttime="00:58:22">
+    <title>iMessage</title>
+    <link href="http://www.apple.com/ios/ios5/features.html#imessage">iMessage</link>
+  </chapter>
+  <chapter starttime="01:02:01">
+    <title>iCloud</title>
+    <link href="http://www.apple.com/icloud/features/">iCloud</link>
+  </chapter>
+  <chapter starttime="01:17:00">
+    <title>iTunes Match</title>
+    <link href="http://www.apple.com/icloud/features/">iTunes Match</link>
+  </chapter>
+  <chapter starttime="01:27:18">
+    <title>Rausschmeisser</title>
+    <link href="http://www.youtube.com/watch?v=T5evwsFRnMQ">Rausschmeisser</link>
+  </chapter>
+</chapters>

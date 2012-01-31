@@ -1,0 +1,7 @@
+#!/bin/bash
+
+./makemetadata $1
+./makefeeds
+
+
+

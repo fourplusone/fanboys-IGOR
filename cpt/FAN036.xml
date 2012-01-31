@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:07">
+    <title>Mit Dominik</title>
+  </chapter>
+  <chapter starttime="00:00:10">
+    <title>Marcel</title>
+  </chapter>
+  <chapter starttime="00:00:14">
+    <title>und Martin</title>
+  </chapter>
+  <chapter starttime="00:01:59">
+    <title>Copy Path</title>
+  </chapter>
+  <chapter starttime="00:06:40">
+    <title>Mac OS TEN und Xing</title>
+    <link href="http://de.wikipedia.org/wiki/XING">Mac OS TEN und Xing</link>
+  </chapter>
+  <chapter starttime="00:09:50">
+    <title>Launchpad, Spotlight und SSDs</title>
+  </chapter>
+  <chapter starttime="00:11:11">
+    <title>Google^WHTC klagt zurück</title>
+    <link href="http://tech.fortune.cnn.com/2011/09/08/google-gets-its-hands-dirty/">Google^WHTC klagt zurück</link>
+  </chapter>
+  <chapter starttime="00:13:44">
+    <title>iPad Geschmacksmuster</title>
+    <link href="http://latimesblogs.latimes.com/technology/2011/09/german-court-upholds-sales-ban-of-samsung-galaxy-tab-101-in-apple-patent-suit.html">iPad Geschmacksmuster</link>
+  </chapter>
+  <chapter starttime="00:18:35">
+    <title>Amazon Kindle Android Dings</title>
+    <link href="http://techcrunch.com/2011/09/02/amazon-kindle-tablet/">Amazon Kindle Android Dings</link>
+  </chapter>
+  <chapter starttime="00:21:24">
+    <title>Leuchtende Kindles</title>
+  </chapter>
+  <chapter starttime="00:22:16">
+    <title>Projekt Gutenberg Gründer verstorben</title>
+    <link href="http://www.gutenberg.org/">Projekt Gutenberg Gründer verstorben</link>
+  </chapter>
+  <chapter starttime="00:25:24">
+    <title>Nike baut die BTTF Schuhe</title>
+    <link href="http://nikemag.ebay.com/shoes">Nike baut die BTTF Schuhe</link>
+  </chapter>
+  <chapter starttime="00:28:34">
+    <title>PDF beschneiden und "Sicherheitslücken"</title>
+    <link href="http://www.heise.de/mac-and-i/meldung/Apples-Vorschau-transportiert-unbemerkt-Datenfragmente-1337813.html">PDF beschneiden und "Sicherheitslücken"</link>
+  </chapter>
+  <chapter starttime="00:33:16">
+    <title>Freiheit statt Angst</title>
+    <link href="http://blog.freiheitstattangst.de/">Freiheit statt Angst</link>
+  </chapter>
+  <chapter starttime="00:37:25">
+    <title>Die Berliner Piraten und die Wahl</title>
+    <link href="http://www.tagesschau.de/multimedia/bilder/crbilderstrecke278_mtb-1_pos-1.html#colsStructure">Die Berliner Piraten und die Wahl</link>
+  </chapter>
+  <chapter starttime="01:00:29">
+    <title>ZDF Mediathek App</title>
+    <link href="http://itunes.apple.com/de/app/zdfmediathek/id437025413?mt=8">ZDF Mediathek App</link>
+  </chapter>
+  <chapter starttime="01:02:55">
+    <title>Game One App</title>
+    <link href="http://itunes.apple.com/de/app/game-one/id423972555?mt=8">Game One App</link>
+  </chapter>
+  <chapter starttime="01:05:01">
+    <title>Unmounten beim Schlafen</title>
+  </chapter>
+  <chapter starttime="01:07:41">
+    <title>Finanzsoftware</title>
+  </chapter>
+  <chapter starttime="01:10:22">
+    <title>Webdav automounten</title>
+  </chapter>
+  <chapter starttime="01:14:00">
+    <title>Photos die nicht aufs iPad syncen</title>
+  </chapter>
+  <chapter starttime="01:16:55">
+    <title>Wonderputt</title>
+    <link href="http://www.spielen.es/wonderputt">Wonderputt</link>
+  </chapter>
+  <chapter starttime="01:20:10">
+    <title>Rausschmeisser</title>
+    <link href="https://www.youtube.com/watch?v=p2ishhFkxPU">Rausschmeisser</link>
+  </chapter>
+</chapters>

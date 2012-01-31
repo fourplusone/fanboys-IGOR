@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#cat ../rss/header.rss ../rss/*.mp3.rss ../rss/footer.rss | sed -e 's/.m4a.rss/.mp3.rss/g' > ../episodes.mp3.rss
+#cat ../rss/header.rss ../rss/*.m4a.rss ../rss/footer.rss > ../episodes.m4a.rss
+
+cat ../rss/header.rss | sed -e 's/.m4a.rss/.mp3.rss/g'  > ../episodes.mp3.rss
+ls -1 ../rss/*.mp3.rss | sort -r | xargs cat  >> ../episodes.mp3.rss
+cat ../rss/footer.rss  >> ../episodes.mp3.rss
+
+cat ../rss/header.rss > ../episodes.m4a.rss
+ls -1 ../rss/*.m4a.rss | sort -r | xargs cat  >> ../episodes.m4a.rss
+cat ../rss/footer.rss  >> ../episodes.m4a.rss
+

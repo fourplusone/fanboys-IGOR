@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:08">
+    <title>Mit Dominik</title>
+    <link href="http://twitter.com/monkeydom">Mit Dominik</link>
+  </chapter>
+  <chapter starttime="00:00:11">
+    <title>Marcel</title>
+    <link href="http://twitter.com/zeitweise">Marcel</link>
+  </chapter>
+  <chapter starttime="00:00:13">
+    <title>und Martin</title>
+    <link href="http://twitter.com/map">und Martin</link>
+  </chapter>
+  <chapter starttime="00:00:39">
+    <title>Links giibt's doch noch</title>
+  </chapter>
+  <chapter starttime="00:01:57">
+    <title>Siri ist "Pro-Life"?</title>
+    <link href="http://techland.time.com/2011/12/01/while-siri-wont-tell-you-where-to-get-an-abortion-apple-says-these-are-not-intentional-omissions/">Siri ist "Pro-Life"?</link>
+  </chapter>
+  <chapter starttime="00:05:17">
+    <title>Lion-Tipp: Besitzeranzeige</title>
+  </chapter>
+  <chapter starttime="00:06:28">
+    <title>iTether</title>
+    <link href="http://www.wired.com/gadgetlab/2011/11/apple-pulls-itether-app-from-store/">iTether</link>
+  </chapter>
+  <chapter starttime="00:10:30">
+    <title>Carrier IQ</title>
+    <link href="http://www.iphoneblog.de/2011/12/01/carrier-iq-chronologie-eines-skandals/">Carrier IQ</link>
+  </chapter>
+  <chapter starttime="00:18:27">
+    <title>Carrier IQ auf iOS</title>
+    <link href="http://blog.chpwn.com/post/13572216737">Carrier IQ auf iOS</link>
+  </chapter>
+  <chapter starttime="00:21:56">
+    <title>Nicht nicht grüne Politik</title>
+    <link href="http://www.telemedicus.info/article/2123-Der-netzpolitische-Leitbeschluss-der-Gruenen.html">Nicht nicht grüne Politik</link>
+  </chapter>
+  <chapter starttime="00:29:20">
+    <title>Gastkonto des Grauens</title>
+    <link href="http://osxdaily.com/2011/10/13/disable-guest-user-account-mac-os-x-10-7-2-login-screen/">Gastkonto des Grauens</link>
+  </chapter>
+  <chapter starttime="00:32:19">
+    <title>Matschzoom</title>
+  </chapter>
+  <chapter starttime="00:36:08">
+    <title>Google Nervfaktor und Fix</title>
+  </chapter>
+  <chapter starttime="00:36:58">
+    <title>Samba und die Rechte</title>
+  </chapter>
+  <chapter starttime="00:40:16">
+    <title>Marathon in Opensource und 1.0</title>
+    <link href="http://marathon.sourceforge.net/">Marathon in Opensource und 1.0</link>
+  </chapter>
+  <chapter starttime="00:42:52">
+    <title>Doom 3 auf dem Mac bauen</title>
+    <link href="http://fabiensanglard.net/doom3_macosx/index.php">Doom 3 auf dem Mac bauen</link>
+  </chapter>
+  <chapter starttime="00:43:49">
+    <title>TCMXMLWriter</title>
+    <link href="https://github.com/monkeydom/TCMXMLWriter">TCMXMLWriter</link>
+  </chapter>
+  <chapter starttime="00:46:20">
+    <title>Tap the Frog</title>
+    <link href="http://itunes.apple.com/de/app/tap-the-frog/id427774127?mt=8">Tap the Frog</link>
+  </chapter>
+  <chapter starttime="00:48:25">
+    <title>Rausschmeisser</title>
+  </chapter>
+</chapters>

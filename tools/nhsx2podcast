@@ -1,0 +1,241 @@
+#!/usr/bin/perl
+use Data::Dumper;
+use XML::Simple;
+use MP3::Info;
+use POSIX qw(strftime);
+use POSIX qw(locale_h);
+use utf8;
+use open ':utf8';
+
+# Marker at 0 is the subtitle
+
+# As ChapterTool is abandoned and underdocumented, here's the usage for it:
+# ChapterTool -x sample.xml -a sample.m4a -o output.m4a
+
+
+$AtomicParsley = '/usr/local/bin/AtomicParsley';
+$id3v2 = '/usr/local/bin/id3v2';
+
+
+$nhsx = $ARGV[0];
+die "Argument has to be a .nhsx file" unless ($nhsx ne "");
+
+$basename = $nhsx; $basename =~ s/.nhsx$//ig; 
+$noextname = $basename;
+$basename =~ s/.*\///g;
+$wavdir = $wavefile; $wavdir =~ s/[^\/]+$//g; 
+
+$mp3file = $noextname.".mp3";
+$m4afile = $noextname.".m4a";
+$mp3size = -s $mp3file;
+$m4asize = -s $m4afile;
+die "mp3 file '$mp3file' missing" unless($mp3size > 0);
+die "m4a file '$m4afile' missing" unless($m4asize > 0);
+
+$xml = XMLin($nhsx);
+
+my %markers;
+
+foreach (@{$xml->{'Markers'}->{'Marker'}}) {
+    $marker = $_;
+    $type = $marker->{'Type'};
+    $name = $marker->{'Name'};
+    $time = $marker->{'Time'};
+    $url = $marker->{'URL'};
+    $image = $marker->{'Image'};
+
+    if ($name eq 'In') {next};
+    if ($name eq 'Out') {next};
+
+    if ($type ne "Chapter") {
+        ($name, $url) = split / http:\/\//, $name;
+        if ($url ne undef) {$marker->{'URL'} = "http://".$url;}
+        $marker->{'Name'} = $name;
+    }
+
+    $marker->{'Seconds'} = stampToSeconds($time);
+    delete $marker->{'Id'};
+    delete $marker->{'ImageRotate'};
+    delete $marker->{'Type'};
+    $markers{$marker->{'Seconds'}} = $marker;
+    #print Dumper($marker);
+    
+}
+
+$subtitle = $markers{0}->{'Name'};
+$markers{0}->{'Name'} = "Anfang";
+
+if ($subtitle eq "") {
+    $subtitle = $xml->{'Info'}->{'Title'};
+}
+
+$xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<chapters version=\"1\">\n";
+$json = "{\n";
+$html = "<table>";
+foreach $key (sort ({ int($a) <=> int($b) } keys(%markers))) {
+    $timestamp = secondsToStamp($key);
+    $marker = $markers{$key};
+    $name = $marker->{'Name'};
+    $link = $marker->{'URL'};
+    
+    unless ($name =~ /Marker /) {
+
+    $xml .= '  <chapter starttime="'.$timestamp.'">'."\n";
+    $xml .= '    <title>'.$name.'</title>'."\n";
+    if ($link ne undef) {
+        $xml .= '    <link href="'.$link.'">'.$name.'</link>'."\n";
+    }
+    #$xml .= '    <picture></picture>'."\n";
+    $xml .= '  </chapter>'."\n";
+   
+    $txt .= $timestamp." ".$name."\n";
+
+    $jsonname = $name;
+    $jsonname =~ s/"/\\\"/g;
+
+    $stamp = int($key);
+    if ($link ne undef) {
+        $json .= "\"$stamp\":{\n\"name\":\"$jsonname\",\n\"link\":\"$link\"\n},\n";
+        $html .= "<tr><td>".sprintf("%02d:%02d:%02d", $hours, $min, $sec).'</td><td><a href="'.$link.'" target="_blank">'.$name.'</td></tr>';
+    } else {
+        $json .= "\"$stamp\":{\n\"name\":\"$jsonname\"\n},\n";
+        $html .= "<tr><td>".sprintf("%02d:%02d:%02d", $hours, $min, $sec)."</td><td>$name</td></tr>";
+    }
+    }
+
+}
+
+$json =~ s/,$//g;
+
+$xml .= "</chapters>\n";
+$json .= "}";
+$html .= "</table>";
+
+$txt .= "\n\n\n(cc-by-nc-sa) 2011";
+
+
+open(FILE, ">../cpt/$basename.xml");
+print FILE $xml;
+close(FILE);
+
+$info = get_mp3info($mp3file);
+$wavduration = $info->{SECS};
+setlocale(LC_TIME, "en_US");
+$rfc822date = strftime("%a, %d %b %Y %H:%M:%S %z", localtime(time()));
+$duration = secondsToStamp($wavduration);
+$shownotes = $txt;
+$lyrics = $txt;
+$igor = $json;
+$igor =~ s/\n//g;
+$episodenumber = $basename;
+$episodenumber =~ s/.*(\d\d\d)$/\1/;
+$episodenumber = int($episodenumber);
+$title = "Episode #".$episodenumber;
+$author = "fanboys";
+
+$feeditem = <<END;
+        <item>
+            <title>$title - $subtitle</title>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:author>$author</itunes:author>
+            <itunes:subtitle>$subtitle</itunes:subtitle>
+            <enclosure url="___URL___" length="___LENGTH___" type="___TYPE___"/>
+            <guid isPermaLink="false">$basename</guid>
+            <pubDate>$rfc822date</pubDate>
+            <itunes:duration>$duration</itunes:duration>
+            <igor:chaptermarks><![CDATA[$igor]]></igor:chaptermarks>
+            <itunes:summary><![CDATA[$shownotes]]></itunes:summary>
+            <description><![CDATA[$html]]></description>
+            <atom:link rel="payment" href="https://flattr.com/submit/auto?url=http%3A%2F%2Ffanboys.fm%2F%23$episodenumber&amp;user_id=map&amp;title=Fanboys%20Episode%20$episodenumber&amp;tags=podcast&amp;category=audio" type="text/html" />
+        </item>
+END
+
+#generate two feeditems
+$mp3item = $feeditem;
+$m4aitem = $feeditem;
+
+$mp3item =~ s/___TYPE___/audio\/mpeg/g;
+$mp3item =~ s/___LENGTH___/$mp3size/g;
+$mp3item =~ s/___URL___/http:\/\/xn--fanbys-exa.org\/episodes\/$basename.mp3/g;
+
+$m4aitem =~ s/___TYPE___/audio\/x-m4a/g;
+$m4aitem =~ s/___LENGTH___/$m4asize/g;
+$m4aitem =~ s/___URL___/http:\/\/xn--fanbys-exa.org\/episodes\/$basename.m4a/g;
+
+open(FILE, ">../rss/$basename.mp3.rss");
+print FILE $mp3item;
+close(FILE);
+
+open(FILE, ">../rss/$basename.m4a.rss");
+print FILE $m4aitem;
+close(FILE);
+
+p($shownotes);
+
+#call ChapterTool
+#cmd("../tools/ChapterTool -x ../cpt/$basename.xml -a $m4afile -o $m4afile");
+
+
+#call AtomicParsley
+
+$shownotes =~ s/'/’/g;
+$lyrics =~ s/'/’/g;
+
+cmd("$AtomicParsley '$m4afile' --artist 'fanboys' --album 'Fanboys' -S 'Podcast' --tracknum '$episodenumber' --title '$title' --description '$shownotes' --comment '$shownotes' --lyrics '$lyrics' --artwork '../images/cover.jpg' -W");
+
+
+#call id3v2
+
+#cmd("$id3v2 '$mp3file' --artist 'fanboys' --album 'Fanboys' --track '$episodenumber' --song '$title' --comment '$shownotes'");
+#bummer: no apic support for cover art
+
+$nextepisode = $episodenumber + 1;
+cmd("sed -i '' 's/^.*agenda.*\$/RewriteRule\\ \\.\\*agenda\\$\\ http:\\/\\/media\\.subethanet\\.org:9001\\/p\\/FAN$nextepisode\\ \\[R,L\\]/' ../.htaccess");
+
+
+
+sub secondsToStamp() {
+    ($seconds) = shift;
+    $stamp = $seconds;
+    
+    $hours = int($stamp / (60*60));
+    $stamp = $stamp - (60*60) * $hours;
+    
+    $min = int($stamp / 60);
+    $stamp = $stamp - 60 * $min;
+    
+    $sec = int($stamp);
+    
+    return(sprintf("%02d:%02d:%02d", $hours, $min, $sec));
+}
+
+sub stampToSeconds() {
+    ($stamp) = shift;
+    
+    $stamp =~ s/\.\d\d\d$//g;
+    if ($stamp =~ /^\d+$/) {
+        $s = $stamp;
+        $m = 0;
+        $h = 0;
+    } elsif ($stamp =~ /^\d+:\d+$/) {
+        ($m, $s) = split /:/,$stamp;
+        $h = 0;
+    } else {
+        ($h, $m, $s) = split /:/,$stamp;
+    }
+    
+    return $h*60*60 + $m*60 + $s;
+}
+
+sub cmd() 
+{
+    p($c);    
+    $c = shift;
+    `$c`;
+}
+
+sub p()
+{
+    $string = shift;
+    print $string."\n";
+}

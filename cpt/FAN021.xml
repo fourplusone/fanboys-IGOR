@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:05">
+    <title>Mit Dominik</title>
+    <link href="http://twitter.com/monkeydom">Mit Dominik</link>
+  </chapter>
+  <chapter starttime="00:00:09">
+    <title>Und Martin</title>
+    <link href="http://twitter.com/map">Und Martin</link>
+  </chapter>
+  <chapter starttime="00:00:48">
+    <title>Ein Mountie in Chicago</title>
+    <link href="http://de.wikipedia.org/wiki/Ein_Mountie_in_Chicago">Ein Mountie in Chicago</link>
+  </chapter>
+  <chapter starttime="00:01:50">
+    <title>Apple antwortet Lodsys</title>
+    <link href="http://www.macworld.com/article/160031/2011/05/apple_legal_lodsys_letter_text.html#lsrc=twt_jsnell">Apple antwortet Lodsys</link>
+  </chapter>
+  <chapter starttime="00:03:55">
+    <title>Lodsys schreibt Android Entwickler an</title>
+    <link href="http://androidcommunity.com/android-devs-hit-by-lodsys-in-app-patent-legal-threats-20110527/">Lodsys schreibt Android Entwickler an</link>
+  </chapter>
+  <chapter starttime="00:05:34">
+    <title>Amazon mit Mac App Store</title>
+    <link href="http://mashable.com/2011/05/26/amazon-mac-download-store/">Amazon mit Mac App Store</link>
+  </chapter>
+  <chapter starttime="00:08:53">
+    <title>Ballmer gegen Einhorn</title>
+    <link href="http://dealbook.nytimes.com/2011/05/25/ballmer-must-go-einhorn-says/">Ballmer gegen Einhorn</link>
+  </chapter>
+  <chapter starttime="00:13:01">
+    <title>Google Beta (Music)</title>
+    <link href="http://music.google.com">Google Beta (Music)</link>
+  </chapter>
+  <chapter starttime="00:15:48">
+    <title>Google Wallet</title>
+    <link href="http://www.google.com/wallet/vision.html">Google Wallet</link>
+  </chapter>
+  <chapter starttime="00:21:01">
+    <title>Paypal klagt gegen Google Wallet</title>
+    <link href="https://www.thepaypalblog.com/2011/05/paypal-files-lawsuit-to-protect-trade-secrets-a-reason-worth-fighting-for/">Paypal klagt gegen Google Wallet</link>
+  </chapter>
+  <chapter starttime="00:22:54">
+    <title>Square</title>
+    <link href="http://itunes.apple.com/us/app/square/id335393788?mt=8">Square</link>
+  </chapter>
+  <chapter starttime="00:23:56">
+    <title>eG8</title>
+    <link href="http://www.eg8forum.com/en/">eG8</link>
+  </chapter>
+  <chapter starttime="00:27:38">
+    <title>CDU Medianight</title>
+    <link href="http://media.ndr.de/download/2011/0526/TV-20110526-1418-1101.h264.mp4">CDU Medianight</link>
+  </chapter>
+  <chapter starttime="00:33:43">
+    <title>360 Controller Treiber</title>
+    <link href="http://audioboo.fm/boos/363509-nielsk-fragt-die-fanb0ys-wie-man-unter-os-x-automatisch-usb-treiber-lad">360 Controller Treiber</link>
+  </chapter>
+  <chapter starttime="00:39:12">
+    <title>tunnelblick vs. aiccu</title>
+    <link href="http://audioboo.fm/boos/366333-tun-deppert-treiber">tunnelblick vs. aiccu</link>
+  </chapter>
+  <chapter starttime="00:40:22">
+    <title>tunnelblick Mailinglistenbeitrag</title>
+    <link href="http://groups.google.com/group/tunnelblick-discuss/browse_thread/thread/41d670b740627eac?pli=1">tunnelblick Mailinglistenbeitrag</link>
+  </chapter>
+  <chapter starttime="00:42:30">
+    <title>Verschlüsselung bei Crashplan</title>
+    <link href="http://audioboo.fm/boos/363230-question-for-the-b0ys">Verschlüsselung bei Crashplan</link>
+  </chapter>
+  <chapter starttime="00:48:56">
+    <title>Migrationsassistent oder nicht?</title>
+    <link href="http://audioboo.fm/boos/366745-fabians-frage-migrationsassistent-oder-handarbeit">Migrationsassistent oder nicht?</link>
+  </chapter>
+  <chapter starttime="00:54:48">
+    <title>Percepto</title>
+    <link href="http://itunes.apple.com/de/app/percepto/id419502225?mt=8">Percepto</link>
+  </chapter>
+  <chapter starttime="00:55:13">
+    <title>Monospace</title>
+    <link href="http://itunes.apple.com/de/app/monospace/id302367044?mt=8">Monospace</link>
+  </chapter>
+  <chapter starttime="00:58:04">
+    <title>All Watched Over by Machines of Loving Grace</title>
+    <link href="http://www.bbc.co.uk/blogs/adamcurtis/2011/05/all_watched_over_by_machines_o.html">All Watched Over by Machines of Loving Grace</link>
+  </chapter>
+  <chapter starttime="01:01:28">
+    <title>Douglas Adams auf der PDC 1996</title>
+    <link href="http://channel9.msdn.com/Events/PDC/PDC-1996/PDC-1996-Keynote-with-Douglas-Adams">Douglas Adams auf der PDC 1996</link>
+  </chapter>
+  <chapter starttime="01:06:37">
+    <title>Frontline: “WikiSecrets”</title>
+    <link href="http://www.pbs.org/wgbh/pages/frontline/wikileaks/">Frontline: “WikiSecrets”</link>
+  </chapter>
+  <chapter starttime="01:12:45">
+    <title>Rausschmeisser</title>
+    <link href="http://www.funnyordie.com/videos/0f1d5effdf/kacey-jones-donald-trump-s-hair">Rausschmeisser</link>
+  </chapter>
+</chapters>

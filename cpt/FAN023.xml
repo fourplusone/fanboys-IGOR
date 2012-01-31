@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapters version="1">
+  <chapter starttime="00:00:00">
+    <title>Anfang</title>
+  </chapter>
+  <chapter starttime="00:00:08">
+    <title>Mit Dominik</title>
+    <link href="http://twitter.com/monkeydom">Mit Dominik</link>
+  </chapter>
+  <chapter starttime="00:00:13">
+    <title>dem Flughafen</title>
+    <link href="http://www.phl.org">dem Flughafen</link>
+  </chapter>
+  <chapter starttime="00:00:16">
+    <title>und Martin</title>
+    <link href="http://twitter.com/map">und Martin</link>
+  </chapter>
+  <chapter starttime="00:01:04">
+    <title>Off road Fanboys</title>
+  </chapter>
+  <chapter starttime="00:01:45">
+    <title>Apple Design Awards</title>
+    <link href="http://developer.apple.com/wwdc/ada/">Apple Design Awards</link>
+  </chapter>
+  <chapter starttime="00:02:22">
+    <title>Pixelmator</title>
+    <link href="http://developer.apple.com/wwdc/ada/details/pixelmator.html#pixelmator">Pixelmator</link>
+  </chapter>
+  <chapter starttime="00:03:31">
+    <title>Djay for iPad</title>
+    <link href="http://developer.apple.com/wwdc/ada/details/djay.html#djay">Djay for iPad</link>
+  </chapter>
+  <chapter starttime="00:05:16">
+    <title>Our Choice</title>
+    <link href="http://developer.apple.com/wwdc/ada/details/ourchoice.html#ourchoice">Our Choice</link>
+  </chapter>
+  <chapter starttime="00:06:50">
+    <title>Capo</title>
+    <link href="http://developer.apple.com/wwdc/ada/details/capo.html#capo">Capo</link>
+  </chapter>
+  <chapter starttime="00:09:41">
+    <title>LLDB</title>
+    <link href="http://lldb.llvm.org/">LLDB</link>
+  </chapter>
+  <chapter starttime="00:11:03">
+    <title>It's like a spaceship has landed</title>
+    <link href="http://www.youtube.com/watch?v=gtuz5OmOh_M">It's like a spaceship has landed</link>
+  </chapter>
+  <chapter starttime="00:14:42">
+    <title>Neue Macbook Airs?</title>
+    <link href="http://www.macrumors.com/2011/06/11/new-macbook-air-due-this-wednesday/">Neue Macbook Airs?</link>
+  </chapter>
+  <chapter starttime="00:16:11">
+    <title>Wii U</title>
+    <link href="http://e3.nintendo.com/hw/">Wii U</link>
+  </chapter>
+  <chapter starttime="00:26:10">
+    <title>PSP Vita</title>
+    <link href="http://pspvita.com/">PSP Vita</link>
+  </chapter>
+  <chapter starttime="00:26:48">
+    <title>Shadow of the Collossus / Ico</title>
+    <link href="http://e3.gamespot.com/story/6317551/e3-2011-ico-and-shadow-of-the-colossus-collection-preview-shadow-of-the-colossus-hands-on-impressions?tag=top_stories%3Bstory%3B3">Shadow of the Collossus / Ico</link>
+  </chapter>
+  <chapter starttime="00:29:01">
+    <title>Gesichtsbuch mit Gesichtserkennung</title>
+    <link href="http://www.huffingtonpost.com/2010/07/02/facebook-introduces-face_n_633694.html">Gesichtsbuch mit Gesichtserkennung</link>
+  </chapter>
+  <chapter starttime="00:35:19">
+    <title>… und neuem Sofa</title>
+    <link href="http://www.theregister.co.uk/2011/06/10/facebook_acquires_sofa/">… und neuem Sofa</link>
+  </chapter>
+  <chapter starttime="00:38:54">
+    <title>Reeder for Mac</title>
+    <link href="http://reederapp.com/">Reeder for Mac</link>
+  </chapter>
+  <chapter starttime="00:40:54">
+    <title>Super 8</title>
+    <link href="http://en.wikipedia.org/wiki/Super_8_(film)">Super 8</link>
+  </chapter>
+  <chapter starttime="00:44:50">
+    <title>Outro</title>
+  </chapter>
+</chapters>
